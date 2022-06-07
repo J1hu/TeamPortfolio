@@ -8,6 +8,7 @@
     background-color: rgba(23, 21, 41, 1);
 }
 
+/* NAVBAR */
 header {
     display: flex;
     justify-content: space-between;
@@ -53,3 +54,4 @@ header {
     border-radius: 5px;
 }
 
+/* BANNER */
