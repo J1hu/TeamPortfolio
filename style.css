@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     background-color: rgba(23, 21, 41, 1);
+    overflow-x: hidden;
 }
 
 /* NAVBAR */
@@ -55,3 +56,100 @@ header {
 }
 
 /* BANNER */
+
+/* GRADIENT */
+.g1 {
+    position: absolute;
+    width: 573.4px;
+    height: 573.4px;
+    left: -73.15px;
+    top: -167px;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgba(191, 90, 224, 0.2) 0%, rgba(168, 17, 218, 0.5) 100%);
+    filter: blur(250px);
+    transform: rotate(31.53deg);
+}
+
+.g2 {
+    position: absolute;
+    width: 573.4px;
+    height: 573.4px;
+    left: 1306.85px;
+    top: 108px;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgba(191, 90, 224, 0.2) 0%, rgba(168, 17, 218, 0.5) 100%);
+    filter: blur(250px);
+    transform: rotate(31.53deg);
+}
+
+.g3 {
+    position: absolute;
+    width: 368.44px;
+    height: 368.44px;
+    left: -15.33px;
+    top: 908px;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgba(2, 178, 220, 0.55) 0%, #B3EEFF 100%);
+    mix-blend-mode: normal;
+    filter: blur(250px);
+    transform: rotate(31.53deg);
+}
+
+.g4 {
+    position: absolute;
+    width: 368.44px;
+    height: 368.44px;
+    left: 1379.67px;
+    top: 1305px;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgba(2, 178, 220, 0.55) 0%, #B3EEFF 100%);
+    mix-blend-mode: normal;
+    filter: blur(250px);
+    transform: rotate(31.53deg);
+}
+.g5 {
+    position: absolute;
+    width: 573.4px;
+    height: 573.4px;
+    left: -74.15px;
+    top: 1731px;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgba(191, 90, 224, 0.2) 0%, rgba(168, 17, 218, 0.5) 100%);
+    filter: blur(250px);
+    transform: rotate(31.53deg);
+}
+.g6 {
+    position: absolute;
+    width: 573.4px;
+    height: 573.4px;
+    left: 1305.85px;
+    top: 2006px;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgba(191, 90, 224, 0.2) 0%, rgba(168, 17, 218, 0.5) 100%);
+    filter: blur(250px);
+    transform: rotate(31.53deg);
+    }
+
+.g7 {
+    position: absolute;
+    width: 368.44px;
+    height: 368.44px;
+    left: 17.67px;
+    top: 2959px;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgba(71, 167, 255, 0.59) 0%, #FF4A78 100%);
+    filter: blur(250px);
+    transform: rotate(31.53deg);
+}
+
+.g8 {
+    position: absolute;
+    width: 368.44px;
+    height: 368.44px;
+    left: 1296.67px;
+    top: 3131px;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgba(71, 167, 255, 0.59) 0%, #FF4A78 100%);
+    filter: blur(250px);
+    transform: rotate(31.53deg);
+}
