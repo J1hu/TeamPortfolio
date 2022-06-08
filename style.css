@@ -2,11 +2,15 @@
 
 * {
     font-family: 'Inter', sans-serif;
+    font-weight: 500;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: rgba(23, 21, 41, 1);
     overflow-x: hidden;
+}
+h1, h2, h3, h4 {
+    font-weight: 700;
 }
 
 /* NAVBAR */
@@ -26,7 +30,8 @@ header {
     padding: 0 50px;
 }
 
-.contact-button, .nav-items {
+.contact-button,
+.nav-items {
     text-decoration: none;
     font-size: 13px;
     font-weight: bold;
@@ -107,6 +112,7 @@ header {
     filter: blur(250px);
     transform: rotate(31.53deg);
 }
+
 .g5 {
     position: absolute;
     width: 573.4px;
@@ -118,6 +124,7 @@ header {
     filter: blur(250px);
     transform: rotate(31.53deg);
 }
+
 .g6 {
     position: absolute;
     width: 573.4px;
@@ -128,7 +135,7 @@ header {
     background: linear-gradient(90deg, rgba(191, 90, 224, 0.2) 0%, rgba(168, 17, 218, 0.5) 100%);
     filter: blur(250px);
     transform: rotate(31.53deg);
-    }
+}
 
 .g7 {
     position: absolute;
@@ -153,3 +160,104 @@ header {
     filter: blur(250px);
     transform: rotate(31.53deg);
 }
+
+/* PROJECTS */
+.projects-title, .about-title {
+    color: white;
+    text-align: center;
+}
+.tabs {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 360px;
+    padding: 30px 20px;
+    overflow: hidden;
+}
+
+.tabs .tab-header {
+    float: left;
+    width: 180px;
+    height: 100%;
+    padding: 50px 20px 50px 0px;
+}
+
+.tab-header {
+    border-left: 1px solid #ffff;
+}
+
+.tabs .tab-header>div {
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #888;
+    cursor: pointer;
+    padding-left: 30px;
+}
+
+.tabs .tab-header>div:hover,
+.tabs .tab-header>div.active {
+    color: #BA4EF2;
+}
+
+.tabs .tab-header>div.active {
+    background-color: #311E49;
+}
+
+.tabs .tab-header div i {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.tabs .tab-content {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.tabs .tab-content>div {
+    position: absolute;
+    padding: 40px 20px;
+    top: -200%;
+    /* transition:all 1200ms ease-out; */
+    color: white;
+}
+
+.tabs .tab-content>div p {
+    text-align: justify;
+}
+
+.tabs .tab-content>div i, .bullet {
+    color: #BA4EF2;
+}
+
+.tabs .tab-content>div.active {
+    top: 0px;
+}
+
+.tabs .tab-indicator {
+    position: absolute;
+    width: 4px;
+    height: 50px;
+    background: #BA4EF2;
+    top: 80px;
+    transition: all 500ms ease-in-out;
+}
+
+.block {
+    display: block;
+}
+
+/* ABOUT */
+/* .about-desc {
+    display: flex;
+    width: 500px;
+    
+}
+.about-desc p {
+     text-align: justify;
+} */
