@@ -221,9 +221,10 @@ header {
     color: white;
     text-align: center;
 }
+
 .tabs {
     position: absolute;
-    top: 50%;
+    top: 110%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 700px;
