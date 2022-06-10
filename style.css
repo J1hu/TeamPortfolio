@@ -9,6 +9,28 @@
     overflow-x: hidden;
 }
 
+
+/* SCROLL BAR */
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #432e63; 
+}
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #2d1353; 
+}
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #808080; 
+}
+
 /* NAVBAR */
 header {
     display: flex;
@@ -56,6 +78,39 @@ header {
 }
 
 /* BANNER */
+.banner-container {
+    display: grid;
+    justify-content: center;
+    margin-top: 80px;
+    grid-template-columns: auto auto;
+    grid-template-areas: "title image";
+}
+
+.banner-title {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    font-size: 30px;
+    color: white;
+    grid-area: title;
+}
+
+.banner-title p {
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.banner-title h1 {
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+.banner-image img {
+    width: 1000px;
+    height: auto;
+    grid-area: image;
+}
 
 /* GRADIENT */
 .g1 {
