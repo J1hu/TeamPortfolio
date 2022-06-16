@@ -9,6 +9,11 @@
     background-color: rgba(23, 21, 41, 1);
     overflow-x: hidden;
 }
+
+body {
+    background-color: rgba(23, 21, 41, 1);
+}
+
 h1, h2, h3, h4 {
     font-weight: 700;
 }
@@ -112,7 +117,7 @@ header {
 }
 
 .banner-image img {
-    width: 1000px;
+    width: 800px;
     height: auto;
     grid-area: image;
 }
@@ -222,9 +227,15 @@ header {
     text-align: center;
 }
 
+.projects-title {
+    position: absolute;
+    top: 170%;
+    left: 40%;
+}
+
 .tabs {
     position: absolute;
-    top: 110%;
+    top: 210%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 700px;
@@ -309,11 +320,19 @@ header {
 }
 
 /* ABOUT */
-/* .about-desc {
+.about {
+    position: absolute;
+    top: 300%;
+    left: 17%;
     display: flex;
-    width: 500px;
-    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about-desc {
+    width: 1000px;
+    color: white;
 }
 .about-desc p {
-     text-align: justify;
-} */
+     text-align: center;
+}
